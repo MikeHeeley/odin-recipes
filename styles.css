@@ -1,9 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+p, ul, ol {
+    line-height: 1.6;
+}
+
+h2 {
+    color: orangered;
+}
+
 .title {
-    font-family: Arial, sans-serif;
     text-align: center;
     font-size: 50px;
 }
 
 .recipe-title {
     text-align: left;
+    color: orangered;
 }
+
+.ingredients-list {
+    list-style-type: none;
+    line-height: 2;
+}
+
