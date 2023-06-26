@@ -1,3 +1,7 @@
+* {
+    /* outline: 1px dotted; */
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
@@ -19,10 +23,22 @@ h2 {
 .recipe-title {
     text-align: left;
     color: orangered;
+    flex: 1;
 }
 
 .ingredients-list {
     list-style-type: none;
-    line-height: 2;
+    padding: 2, 15px;
 }
 
+.ingredients-list li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 6px;
+}
+
+.directions-list li {
+    margin: 0;
+    padding: 10px;
+    /* border: 1px dotted; */
+}
